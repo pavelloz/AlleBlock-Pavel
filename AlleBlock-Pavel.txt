@@ -1,1 +1,154 @@
+! ! Main
+! allegro.pl##div[data-box-name="HP Redesign Content"]
+! allegro.pl##div[data-box-name="metrum-footer-partial-expander"]
+! allegro.pl##div[data-box-name="promoted.links.grid.container"]
+! allegro.pl##div[data-box-name="f-social"]
+! allegro.pl##div[data-box-name$="desktop-nav-links"]
+! allegro.pl##div[data-group-id="header-layers-desktop_eBilet.pl"]
+! allegro.pl##a[href^="/kampania"]
 
+! ! Login + register
+! allegro.pl##div[data-box-name="banner - cmuid"]:upward(2)
+! allegro.pl###chat-container
+
+! ! Search bar
+! allegro.pl##div#suggestions-listbox > a[href^="https://allegro.pl/dss-proxy/clicks?emission_unit_id="]
+
+! ! Full-screen surveys
+
+! ! Categories - PL
+! ! General
+! allegro.pl##div[data-box-name="structure-container"]
+! allegro.pl##div[data-box-name="structure-links"]
+! allegro.pl##div[data-box-name="structure-tabs"]
+! allegro.pl##div[data-box-name*="Showcase"]
+! allegro.pl##div[data-box-name*="Promoted"]
+! allegro.pl##div[data-box-name*="SEO"]
+! allegro.pl##div[data-box-name^="PL - Additional"]
+! ! Nieruchomości
+! allegro.pl##div[data-box-name="SHOWCASE NIERUCHOMOSCI"]
+! allegro.pl##div[data-box-name="PROMOWANE_OGŁOSZENIA"]
+! allegro.pl##div[data-box-name="DOBIERARKA NIERUCHOMOSCI SG"]
+! ! Moda, Uroda
+! allegro.pl##div[data-box-name="Marki"]
+! allegro.pl##div[data-box-name^="Articles"]
+! allegro.pl##div[data-box-name^="korzyści z licytacji"]
+! allegro.pl##div[data-box-name^="Lista marek"]
+! allegro.pl##div[data-box-name*="polecane"]
+! allegro.pl##div[data-box-name="kontener z tagiem analitycznym"]
+! allegro.pl##a[href$="/marki"]
+! allegro.pl##div[data-box-name="Oferta-oficjalnych-sklepow.image.container"]
+! allegro.pl##div[data-box-name="Fall-Oferta-oficjalnych-sklepow.carousels"]
+! ! Motoryzacja > Ogłoszenia motoryzacyjne
+! allegro.pl##div[data-box-name^="Baner"]
+! allegro.pl##div:has(> div[data-box-name$="KARUZELA"])
+! allegro.pl##div:has(> div[data-box-name$="OFERTA_DNIA"])
+! allegro.pl##div[data-box-name^="Belka wystawianie kontener główny"]
+! allegro.pl##div[data-box-name="Promowane na dziale ogłoszeń"]
+! allegro.pl##div[data-box-name="Samochody osobowe- Nadwozia"]
+! allegro.pl##div[data-box-name="LP Ogłoszenia - motocykle"]
+! allegro.pl##div[data-box-name*="marki"]
+! allegro.pl##div[data-box-name="Wideo"]
+! allegro.pl##div[data-box-name^="najnowsze artykuly"]
+! allegro.pl##div[data-box-name="inspiracje motoryzacji"]
+! allegro.pl##div[data-box-name="Linki wewnętrzne"]
+! allegro.pl##div[data-box-name="INFO"]
+! ! Motoryzacja > Opony
+! allegro.pl##div[data-box-name^="TABS-OPONY"]
+! allegro.pl##div[data-box-name="Opony całoroczne"]
+! allegro.pl##div[data-box-name^="STREFA MAREK"]
+! allegro.pl##div[data-box-name^="Strefa Marek"]
+! allegro.pl##div[data-box-name^="Testy Opon"]
+! allegro.pl##div[data-box-name^="Artykuły opon"]
+! allegro.pl##div[data-box-name^="Płytki inspiracji"]
+! allegro.pl##div[data-box-name="Felgi w najlepszej cenie"]
+! allegro.pl##div[data-box-name="Felgi aluminiowe"]
+! allegro.pl##div[data-box-name="Felgi stalowe"]
+! allegro.pl##div[data-box-name="Kompletne Koła"]
+! allegro.pl##div[data-box-name="Kolpaki"]
+! allegro.pl##div[data-box-name^="Chemia"]
+! allegro.pl##div[data-box-name="Bezpieczenstwo"]
+! ! Motoryzacja > Strefa motocykli
+! allegro.pl##div[data-box-name^="Rekomendacje"]
+! allegro.pl##div[data-box-name="Motocykle-czesci"]
+! allegro.pl##div[data-box-name="Czesci"]
+! allegro.pl##div[data-box-name="Bagaż motocyklowy"]
+! allegro.pl##div[data-box-name="Kaski motocyklowe"]
+! allegro.pl##div[data-box-name="motocykle1"]
+! allegro.pl##div[data-box-name="Odzież motocyklowa"]
+! allegro.pl##div[data-box-name="Motocykle-i-quady"]
+! allegro.pl##div[data-box-name="Artykuly"]
+! ! Motoryzacja > Strefa maszyn
+! allegro.pl##div[data-box-name="maszyny rolnicze"]
+! allegro.pl##div[data-box-name="maszyny budowlane"]
+! allegro.pl##div[data-box-name*="przemyslowe"]
+! allegro.pl##div[data-box-name="Przyczepy i naczepy"]
+! allegro.pl##div[data-box-name="Inne_pojazdy"]
+! allegro.pl##div[data-box-name="ogłoszenia"]:has(h2:has-text("Maszyny dla profesjonalistów"))
+
+! Listings
+! allegro.pl#@##search-results [data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> button):style(position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important)
+! allegro.pl##div[data-box-name^="allegro.ads"]
+! allegro.pl##section[data-analytics-view-label="AllegroPayListingBannerEligible"]
+! allegro.pl##section[data-analytics-view-label="BestPriceGuaranteeBanner"]
+! allegro.pl##div[data-box-name="layout.container.adblock"]
+! allegro.pl##div[data-box-name="didYouMean"]
+! allegro.pl##div[data-box-name^="premium.with.dfp"]
+! allegro.pl##article:not([data-analytics-enabled])
+! allegro.pl##div[data-box-name="seoLazyBelowFilters"]
+! allegro.pl##div[data-box-name^="allegro.advertising.adspremium"]
+! allegro.pl##div[data-box-name="rekomendacje"]
+! allegro.pl##div[data-box-name="articles"]
+! allegro.pl##div[data-box-name="kategorie komplementarne kontener"]
+! allegro.pl##div[data-box-name="seo text container"]
+! allegro.pl##div[data-box-name="seo-custom-navigation-links"]
+! allegro.pl##div[data-box-name="podobne wyszukiwania kontener"]
+
+! ! Offer page
+! allegro.pl##div[data-box-name^="Cobalt"]
+! allegro.pl##div[data-box-name^="Cyan"]
+! allegro.pl##div:has(> div > div > div[data-box-name="container.moreOf"])
+! allegro.pl##div[data-box-name="Seller Banner Container"]
+! allegro.pl##div[data-box-name="reco.bottom.container"]
+! allegro.pl##div[data-box-name="allegro.oferta.carousel.container"]
+! allegro.pl##div[data-box-name="Container Bottom"]
+! ! Sale ended
+! allegro.pl##div[data-box-name="Container carousel reco ended"]
+
+! ------------------------------------------------------------------------------------------------------------------------
+
+
+allegro.pl##article:not([data-analytics-enabled])
+allegro.pl##section[data-analytics-view-label="AllegroPayListingBannerEligible"]
+allegro.pl##article[data-analytics-view-custom-context="SPONSORED"]
+allegro.pl##div[data-analytics-view-label="BestPriceGuaranteeBanner"]
+allegro.pl##span[data-onboarding-hook="product_popularity"]
+allegro.pl##fieldset[data-analytics-view-value="programs-pl"]
+allegro.pl##fieldset[data-analytics-view-label="UserFeedbackField"]
+allegro.pl##fieldset[data-analytics-view-value="promotions"]
+allegro.pl##p[data-slot-name="Ocena produktu"]
+
+allegro.pl##div[data-role="header-secondary-bar"]
+allegro.pl##button[data-dropdown-id="my_packages_dropdown"]
+
+allegro.pl##div[data-box-name="rekomendacje"]
+allegro.pl##div[data-box-name="articles"]
+allegro.pl##div[data-box-name^="allegro.ads"]
+allegro.pl##div[data-box-name^="premium.with.dfp"]
+allegro.pl##div[data-box-name="obserwuj"]
+allegro.pl##div[data-box-name="carousels.base"]
+allegro.pl##div[data-box-name="seoLazyBelowFilters"]
+allegro.pl##div[data-box-name="popularne"]
+allegro.pl##div[data-box-name="f-expander"]
+allegro.pl##div[data-box-name="f-links"]
+allegro.pl##div[data-box-name="allegro.footer.mini"]
+allegro.pl##div[data-box-name="allegro-group-services"]
+allegro.pl##div[data-box-name="survey-container"]
+allegro.pl##div[data-box-name="podobne wyszukiwania kontener"]
+
+
+!allegro.pl##article div:has-text(/Super Sprzedawcy/)
+!allegro.pl##article div:has-text(/SUPERCENA/)
+allegro.pl##div:has(> span:has-text(/Promowane/))
+allegro.pl##div:has(> span:has-text(/identyfikator wersji/))
+allegro.pl##div:has(> span:has-text(/Polub wyszukiwanie/))
